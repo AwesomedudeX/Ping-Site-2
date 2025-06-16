@@ -15,6 +15,6 @@ for site in sites:
 while True:
   
   for site in sites:
-    os.terminal(f"ping {site}")
+    os.system(f"ping {site}")
 
   time.sleep(3600)
