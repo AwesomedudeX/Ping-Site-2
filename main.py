@@ -7,10 +7,10 @@ sites = [
 ]
 
 st.title("Streamlit Ping Site 2")
-st.subheader("Sites to Ping:")
+st.subheader("Pinging Sites:")
 
 for site in sites:
-  st.write(f" - {site}")
+  st.write(f" - `{site}`")
 
 while True:
   
