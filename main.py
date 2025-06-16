@@ -9,8 +9,8 @@ sites = [
 def cmd(command):
   os.system(command)
 
-cmd(apt-get update -y)
-cmd(apt-get install -y iputils-ping)
+cmd("apt-get update -y")
+cmd("apt-get install -y iputils-ping")
 
 st.title("Streamlit Ping Site 2")
 st.subheader("Pinging Sites:")
