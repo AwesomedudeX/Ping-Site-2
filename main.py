@@ -1,4 +1,4 @@
-import streamlit
+import streamlit as st
 import os
 import time
 
@@ -13,5 +13,8 @@ for site in sites:
   st.write(f" - {site}")
 
 while True:
+  
   for site in sites:
     os.terminal(f"ping {site}")
+
+  time.sleep(3600)
